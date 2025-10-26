@@ -1,0 +1,95 @@
+{
+    "feature_columns": [
+        "Gender",
+        "12th_Marks",
+        "Stream",
+        "Interests",
+        "Hobbies",
+        "Other_Skills",
+        "Location"
+    ],
+    "encoder_mappings": {
+        "Gender": [
+            "Female",
+            "Male"
+        ],
+        "Stream": [
+            "Arts",
+            "Commerce",
+            "Humanities",
+            "Science (PCB)",
+            "Science (PCM)"
+        ],
+        "Interests": [
+            "AI & Machine Learning",
+            "Biotechnology",
+            "Civil Services",
+            "Cybersecurity",
+            "Data Analytics",
+            "Digital Marketing",
+            "Finance & Accounting",
+            "Graphic Design",
+            "Journalism",
+            "Law",
+            "Management",
+            "Medical Science",
+            "Psychology",
+            "Software Development"
+        ],
+        "Hobbies": [
+            "Blogging",
+            "Chess",
+            "Coding",
+            "Cooking",
+            "Cricket",
+            "Fitness",
+            "Listening to Music",
+            "Painting",
+            "Photography",
+            "Reading",
+            "Traveling"
+        ],
+        "Other_Skills": [
+            "C++",
+            "Content Writing",
+            "Data Visualization",
+            "Java",
+            "MS Excel",
+            "Photoshop",
+            "Public Speaking",
+            "Python",
+            "SEO",
+            "Video Editing"
+        ],
+        "Location": [
+            "Ahmedabad",
+            "Bangalore",
+            "Chandigarh",
+            "Chennai",
+            "Delhi",
+            "Gurgaon",
+            "Hyderabad",
+            "Jaipur",
+            "Kochi",
+            "Kolkata",
+            "Lucknow",
+            "Mumbai",
+            "Noida",
+            "Pune"
+        ]
+    },
+    "target_classes": [
+        "Chartered Accountant",
+        "Data Scientist",
+        "Doctor",
+        "IAS Officer",
+        "Investment Banker",
+        "Journalist",
+        "Lawyer",
+        "Marketing Manager",
+        "Product Manager",
+        "Psychologist",
+        "Software Engineer",
+        "UI/UX Designer"
+    ]
+}
